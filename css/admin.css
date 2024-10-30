@@ -1,0 +1,718 @@
+.hidden {
+    display: none;
+}
+
+label.error {
+    margin-left: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+#current_logo img,
+#current_background_image img {
+    max-width: 150px;
+}
+
+#template_images {
+    display: none;
+}
+
+.template_image_item {
+    width: 141px;
+    height: 141px;
+    overflow: hidden;
+    float: left;
+    border: solid 1px #cccccc;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+}
+
+.template_image_item img {
+    max-width: 148px;
+}
+
+.template_image_item div.title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 150px;
+    background-image: url('../../images/shadow.png');
+    padding: 3px;
+    color: #ffffff;
+}
+
+#iphone_block {
+    width: 389px;
+    height: 754px;
+    position: relative;
+    padding: 1px 0px 0px 0px;
+}
+
+#iphone_block_phone {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 389px;
+    height: 754px;
+    z-index: 99;
+    background-image: url('../images/iphone-4.png');
+    background-repeat: no-repeat;
+}
+
+td.colorpicker {
+
+}
+
+td.colorpicker input {
+    float: left;
+}
+
+td.colorpicker a {
+    display: block;
+    float: left;
+    margin: 2px 0px 0px 4px;
+}
+
+#TB_ajaxContent {
+    padding: 0px;
+}
+
+.ui-widget {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.ui-accordion {
+}
+
+.ui-accordion .ui-accordion-content {
+    overflow: visible;
+}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+    border: 1px solid #AAAAAA;
+    background-color:#f1f1f1;
+    background-image:-ms-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:-moz-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:-o-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec));
+    background-image:-webkit-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:linear-gradient(top,#f9f9f9,#ececec);
+}
+
+.ui-state-active, 
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active {
+    border: 1px solid #AAAAAA;
+    background-color:#f1f1f1;
+    background-image:-ms-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:-moz-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:-o-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec));
+    background-image:-webkit-linear-gradient(top,#f9f9f9,#ececec);
+    background-image:linear-gradient(top,#f9f9f9,#ececec);
+}
+
+.ui-state-default a, 
+.ui-state-default a:link, 
+.ui-state-default a:visited {
+    color: #000000;
+}
+
+.ui-state-active a, 
+.ui-state-active a:link, 
+.ui-state-active a:visited {
+    color: #000000;
+}
+
+.ui-state-default .ui-icon {
+    background: url("images/ui-icons_0b54d5_256x240.png");
+    background-position: -32px -16px;
+}
+
+.ui-state-active .ui-icon {
+    background: url("images/ui-icons_0b54d5_256x240.png");
+    background-position: -64px -16px;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+    color: #000000;
+}
+
+.ui-widget-content {
+    background: none;
+}
+
+.mobilecomply_table {
+}
+
+
+.mobilecomply_table td {
+    vertical-align: top;
+}
+
+#iphone_container {
+    width: 640px;
+    height: 917px;
+    position: relative;
+    overflow: hidden;
+    -moz-transform: scale(0.5) translate(-396px, -768px);
+    -o-transform: scale(0.5) translate(-396px, -768px);
+    zoom: 0.5;
+    padding: 1px 0px;
+    margin: 310px 0px 0px 75px;
+}
+
+#iphone_container.default input[type="button"],
+#iphone_container.default input[type="submit"],
+#iphone_container.default .button {
+    border: 0px;
+    background-image: url('../images/footer_button_shadow.png');
+    background-repeat: repeat-x;
+    border-radius: 4px;    
+    text-align: center;
+    line-height: 48px;
+    text-shadow: #444444 1px 0px 0px;
+    display: block;
+    text-decoration: none;
+    font-size: 24px !important;
+    /* Default */
+    color: #ffffff;
+}
+
+/*********** PAGE ***************/
+#iphone_container #page {
+    max-width: 640px;
+    width: 640px;
+}
+/*========== END PAGE ==================*/
+
+/*********** HEADER *************/
+#iphone_container.default #header {
+    background-image: url('../images/header_shadow.png');
+    height: 133px;
+    overflow: hidden;
+}
+
+#iphone_container.default #header img {
+    margin-left: 20px;
+}
+
+#iphone_container.default #header_site_title {
+    float: right;
+    width: 330px;
+    height: 130px;
+    margin-right: 20px;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+#iphone_container.default #header_site_title td {
+    vertical-align: middle;
+}
+
+#iphone_container.default #header_site_title td h1 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 100%;
+}
+/*================== END HEADER =======================*/
+
+/******************* TOP BAR *******************/
+#iphone_container.default #top_bar {
+    height: 66px;
+    padding: 15px 20px 0px 20px;
+    background-image: url('../images/nav_bar_shadow.png');
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+#iphone_container.default #navigation_button {
+    width: 183px;
+    height: 51px;
+    text-align: center;
+    display: block;
+    position: relative;
+    cursor: default;
+    float: left;
+    background-image: url('../images/button_with_bottom_arrow.png');
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 48px;
+    text-shadow: #444444 1px 0px 0px;
+    color: #ffffff;
+    z-index: 98;
+}
+
+#iphone_container.default #top_bar .active {
+    background: blue;
+    border-radius: 4px 4px 0px 0px;
+    height: 54px;
+    border-top: solid 1px #45433e;
+}
+
+#iphone_container.default #navigation_button .triangle {
+    position: absolute;
+    bottom: -9px;
+    left: 76px;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent;
+}
+
+#iphone_container.default #navigation_button .triangle_shadow {
+    position: absolute;
+    bottom: -9px;
+    left: 0px;
+    width: 183px; 
+    height: 9px; 
+    background-image: url('../images/button_with_bottom_arrow.png');
+    background-position: bottom center;
+}
+
+#iphone_container.default #top_bar .active .triangle,
+#iphone_container.default #top_bar .active .triangle_shadow {
+    display: none;
+}
+
+#iphone_container.default #primary_menu {
+    position: absolute;
+    top: 68px;
+    left: 20px;
+    width: 600px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff));
+    background: -moz-linear-gradient(top,#ccc,#fff);
+    border-radius: 0px 0px 4px 4px;
+    z-index: 100;
+    border-top: solid 1px #45433e;
+}
+
+#iphone_container.default #primary_menu ul {
+    margin: 0px;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+#iphone_container.default #primary_menu ul ul {
+    padding: 0px 20px;
+}
+
+#iphone_container.default #primary_menu ul li {
+    line-height: 22px;
+}
+
+#iphone_container.default #primary_menu ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+#iphone_container.default #top_search {
+    float: right;
+}
+
+#iphone_container.default #top_search .text {
+    width: 240px;
+    height: 50px;
+    background-image: url('../images/search_text_input.png');
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+#iphone_container.default #top_search .text input {
+    border: 0px;
+    background: none;
+    height: 50px;
+    width: 234px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+#iphone_container.default #top_search .button {
+    border-radius: 4px;
+    border: none;    
+    width: 107px;
+    height: 50px;
+    background-image: url('../images/button.png');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    font-size: 24px;
+    text-shadow: #444444 1px 0px 0px;
+    float: left;
+    padding: 0px;
+    /* Default */
+    background-color: #caab74;
+    color: #ffffff;
+}
+/*================== END TOP BAR ===================*/
+
+/******************* MAIN **********************/
+#iphone_container.default #main {
+    padding: 0px 20px;
+}
+
+#iphone_container.default #main h1.entry-title, 
+#iphone_container.default #main h1.entry-title a,
+#iphone_container.default #main h2.entry-title,
+#iphone_container.default #main h2.entry-title a,
+#iphone_container.default #main h1.page-title {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+#iphone_container.default section#primary {
+    padding-top: 20px;
+}
+
+#iphone_container.default #main .post {
+    border-bottom: solid 1px #ffffff;
+    padding: 20px 0px 20px 0px;
+}
+
+#iphone_container.default #main .post:first-child {
+    border-top: 0px;
+}
+
+#iphone_container.default #main .post_single {
+    border-bottom: 0px;
+    border-top: solid 1px #ffffff;
+}
+
+#iphone_container.default #main .page {
+    padding: 20px 0px 1px 0px;
+    border-bottom: solid 1px #ffffff;
+}
+
+#iphone_container.default #main .not-found {
+    border-bottom: 0px;
+}
+
+#iphone_container.default #main .post_single .entry-header {
+    border-bottom: solid 1px #ffffff;
+    padding-bottom: 20px;
+}
+
+#iphone_container.default #main .post .date {
+    float: left;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0px 5px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#iphone_container.default #main .post hgroup .date {
+    padding: 7px;
+    line-height: 17px;
+}
+
+#iphone_container.default #main .post hgroup .date span {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#iphone_container.default #main .post hgroup .date .triangle {
+    position: absolute;
+    top: 29px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent; 
+    border-bottom: 15px solid transparent;
+}
+
+#iphone_container.default #main .post .author {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#iphone_container.default #main .post .entry-meta {
+    font-size: 17px;
+    line-height: 23px;
+}
+
+#iphone_container.default #main .post_single .entry-meta {
+    margin-top: 6px;
+}
+
+#iphone_container.default .entry-header .wp-post-image {
+    float: left;
+    border: solid 1px #ffffff;
+    margin: 0px 10px 0px 0px;
+}
+
+#iphone_container.default #main .post .sticky_image {
+    border: solid 1px #ffffff;
+    margin-bottom: 13px;
+}
+
+#iphone_container.default #main .post .sticky_image img {
+    border: 0px;
+    float: none;
+    vertical-align: bottom;
+}
+
+#iphone_container.default #main input#s {
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    width: 600px;
+    font-size: 22px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#iphone_container.default #main #searchsubmit {
+    margin: 10px 0px;
+    padding: 5px 10px;
+}
+
+#iphone_container.default #nav-single, nav {
+    font-size: 17px;
+    padding: 20px 0px;
+}
+
+#iphone_container.default #nav-single .nav-next, nav .nav-next {
+    float: right;
+}
+
+#iphone_container.default nav .nav-previous {
+    float: left;
+}
+
+#iphone_container.default #nav-single h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#iphone_container.default .widget {
+    border: 0px;
+    border-radius: 0px;
+    background: none;
+    box-shadow: none;
+}
+
+#iphone_container.default .widget h3 {
+    line-height: 100%;
+    border: 0px;
+}
+/*================== END MAIN ======================*/
+
+/******************* COMMENTS ******************/
+#iphone_container.default #comments {
+    padding-top: 17px;
+}
+
+#iphone_container.default #respond {
+    font-size: 17px;
+}
+
+#iphone_container.default #respond label {
+    width: 120px;
+    float: left;
+    display: block;
+}
+
+#iphone_container.default #respond input {
+    margin: 0px 10px 0px 10px;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    height: 24px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#iphone_container.default #comments-title, #reply-title {
+    margin: 0px;
+    font-size: 20px;
+}
+
+#iphone_container.default #comments .comment {
+    font-size: 17px;
+    border-bottom: solid 1px;
+    padding: 10px 0px;
+}
+
+#iphone_container.default #comments .comment a {
+    font-size: 17px;
+}
+
+#iphone_container.default #comments .form-allowed-tags {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#iphone_container.default #comment {
+    resize: none;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    vertical-align: top;
+    margin-left: 10px;
+}
+/*================== END COMMENTS ==================*/
+
+/******************* CALENDAR ***********************/
+#iphone_container.default #wp-calendar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#iphone_container.default #wp-calendar td,
+#iphone_container.default #wp-calendar th {
+    text-align: center;
+    padding: 3px 0px;
+    text-shadow: none;
+}
+
+#iphone_container.default td#prev {
+    text-align: left;
+}
+
+#iphone_container.default td#next {
+    text-align: right;
+}
+/*================== END CALENDAR ==================*/
+
+/******************* FOOTER ********************/
+#iphone_container.default #footer {
+    min-height: 71px;
+    background-image: url('../images/footer_shadow.png');
+    background-repeat: repeat-x;
+    margin: 0px;
+    padding: 0px;
+    position: static;
+    border: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#iphone_container.default #footer .button {
+    height: 48px;
+    width: 134px;
+    float: left;
+    margin: 10px 0px 0px 20px;
+    padding: 0px;
+}
+
+#iphone_container.default footer.footer-1 .button {
+    width: 600px !important;
+}
+
+#iphone_container.default footer.footer-2 .button {
+    width: 290px !important;
+}
+
+#iphone_container.default footer.footer-3 .button {
+    width: 185px !important;
+}
+
+#iphone_container.default #footer_copyright {
+    margin: 0px 0px 0px 20px;
+    padding: 5px 0px;
+}
+/*================== END FOOTER ==================*/
+
+
+/*================== STYLES FOR NEW THEME ==================*/
+
+
+
+#iphone_container.new #header {
+    background-image: url('../themes/new/images/logograd.png');
+	background-repeat: repeat-x;
+    height: 118px;
+    overflow: hidden;
+	text-align: center;
+}
+
+/******************* MAIN **********************/
+#iphone_container.new #main {
+	height:842px;
+}
+
+#iphone_container.new #list_header {
+	height:70px;
+	background-image: url('../themes/new/images/choosepagegrad.png');
+	background-repeat: repeat-x;
+	padding-left:18px;
+	padding-top:18px;
+}
+
+#iphone_container.new #list_header img {
+	float:left;
+	margin-right:23px;
+}
+
+#iphone_container.new #category_title {
+	width:426px;
+}
+
+#iphone_container.new #category_title p {
+	margin:8px 0 0 0;
+}
+
+#iphone_container.new #content {
+	height:752px;
+	background-image: url('../themes/new/images/menugrad.png');
+	background-repeat: repeat-x;
+	overflow:hidden;
+}
+
+#iphone_container.new  #content .post {
+	height:149px;
+	background: url('../themes/new/images/postgrad.png') repeat-x;
+}
+
+#iphone_container.new #content .post_image {
+	margin-left:18px;
+	width:268px;
+	float:left;
+}
+
+#iphone_container.new #content .post_title, #iphone_container.new #content .post_description {
+	width:330px;
+}
+
+#iphone_container.new #content .post_description{
+	height:80px;
+}
+
+#iphone_container.new #content .title_and_description {
+	height:145px;
+	width:320px;
+	margin-left:12px;
+	float:left;
+}
+
+#iphone_container.new #content .post_description  p {
+	margin:5px 0 0 0;
+}
+#iphone_container.new #content a {
+	text-decoration:none;
+}
+
+
+
+
+/*================== END MAIN ======================*/
+
+/*================== END STYLES FOR NEW THEME ==================*/

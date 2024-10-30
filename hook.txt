@@ -1,0 +1,1 @@
+This is a hook file to display site with MobileComply installed.

@@ -1,0 +1,371 @@
+/*
+Theme Name: Mobilecomply second theme
+Author: Raydev
+Author URI: http://raydev.com/
+Description: Second theme for mobilecomply plugin
+Version: 1.0
+*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+	font-weight:bold;
+}
+
+img {
+    border: none;
+}
+
+#splash_screen {
+	width:640px;
+	height: 960px;
+	background: url('images/maingrad.png') repeat-x;
+	padding-top:390px;
+	text-align:center;
+	position:fixed;
+}
+
+#splash_screen p {
+	text-align:center;
+	font:italic 35px Arial;
+	color:#e0e0e0;
+	
+}
+
+
+/*********** PAGE ***************/
+#page {
+    max-width: 640px;
+	height: 960px;
+}
+/*========== END PAGE ==================*/
+
+/*********** HEADER *************/
+#header {
+    background-image: url('images/logograd.png');
+	background-repeat: repeat-x;
+    height: 118px;
+    overflow: hidden;
+	text-align: center;
+}
+/*================== END HEADER =======================*/
+
+/******************* MAIN **********************/
+#main {
+	height:842px;
+}
+
+#select_a_page {
+	height:59px;
+	background-image: url('images/choosepagegrad.png');
+	background-repeat: repeat-x;
+	padding-left:46px;
+	padding-top:31px;
+}
+
+#list_header {
+	height:70px;
+	background-image: url('images/choosepagegrad.png');
+	background-repeat: repeat-x;
+	padding-left:18px;
+	padding-top:18px;
+}
+
+#list_header img {
+	float:left;
+	margin-right:23px;
+}
+
+#category_title {
+	width:426px;
+}
+
+#select_a_page p{
+	margin:0;
+}
+
+#category_title p {
+	margin:8px 0 0 0;
+}
+
+#navigation, #content {
+	height:752px;
+	background-image: url('images/menugrad.png');
+	background-repeat: repeat-x;
+	overflow-y:scroll;
+}
+
+
+#navigation a {
+	text-decoration:none;
+}
+
+#navigation .menu_item {
+	height:57px;
+	padding:26px 10px 0 46px;
+}
+
+#navigation .menu_item:hover {
+	background: url('images/menuselectedgrad.png') repeat-x;
+}
+
+#navigation .menu_item_title  {
+	float:left;
+}
+
+#navigation .menu_arrow  {
+	float:right;
+	position:relative;
+	top:-14px;
+	width:35px;
+}
+
+#navigation .menu_arrow  a {
+	font-size:57px;
+}
+
+#navigation .menu_item_title  a{
+	width:525px;
+	display:block;
+}
+
+#content .post {
+	height:149px;
+	background: url('images/postgrad.png') repeat-x;
+}
+
+#content .post_image {
+	margin-left:18px;
+	width:268px;
+	float:left;
+}
+
+#content .post_title, #content .post_description {
+	width:330px;
+}
+
+#content .post_description{
+	height:80px;
+}
+
+#content .title_and_description {
+	height:145px;
+	width:320px;
+	margin-left:12px;
+	float:left;
+}
+
+#content .post_description  p {
+	margin:5px 0 0 0;
+}
+
+#content .post_content {
+	float:right;
+	margin:30px 23px 0 29px;
+}
+
+#content .post_content p {
+	margin: 0 ;
+}
+
+#content a {
+	text-decoration:none;
+}
+
+/*================== END MAIN ======================*/
+
+/*
+ * CSS Styles for scrollbar */
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: transparent;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: transparent;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: transparent;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+/******************* OPT IN FORM ******************/
+#opt_in_form {
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    z-index:9999;
+    -webkit-user-select:none;
+    -webkit-box-sizing:border-box;
+    min-height: 500px;
+    width:480px;
+    font-size:25px;
+    padding:10px;
+    text-align:left;
+    /*font-family:helvetica;*/
+    background-image:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(0.02,#eee),color-stop(0.98,#ccc),color-stop(1,#a3a3a3));
+    border:1px solid #505050;
+    -webkit-border-radius:16px;
+    -webkit-background-clip:padding-box;
+    /*color:#333;
+    text-shadow:0 1px 0 rgba(255,255,255,0.75);
+    line-height:130%;*/
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.5);
+    overflow: scroll;
+}
+
+#opt_in_form .arrow {
+    position:absolute;
+    top: -10px;
+    background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(204,204,204,0)),color-stop(0.4,rgba(204,204,204,0)),color-stop(0.4,#ccc));
+    border-width:0 1px 1px 0;
+    border-style:solid;
+    border-color:#505050;
+    width:16px; height:16px;
+    -webkit-transform:rotateZ(-135deg);
+    left:50%;
+    margin-left:-8px;
+    -webkit-box-shadow:inset -1px -1px 0 #a9a9a9;
+    -webkit-border-bottom-right-radius:2px;
+}
+
+#opt_in_form input[type="text"],
+#opt_in_form input[type="email"],
+#opt_in_form input[type="tel"] {
+    -webkit-border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#opt_in_form .error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#opt_in_form label.error {
+    margin-bottom: 0px;
+}
+
+#opt_in_form #submit_opt_in, #cancel_opt_in {
+	float:left;
+	margin-right: 5px;
+	font-size:25px;
+}
+
+#opt_in_form label[for="receive_mobile_offers_no"],
+#opt_in_form label[for="receive_mobile_offers_yes"]{
+	font-size: 44px;
+}
+/*================== END OPT IN FORM =============*/

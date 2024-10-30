@@ -1,0 +1,549 @@
+/*
+Theme Name: Mobilecomply default theme
+Author: Raydev
+Author URI: http://raydev.com/
+Description: Default theme for mobilecomply plugin
+Version: 1.0
+*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+input[type="button"],
+input[type="submit"],
+.button {
+    border: 0px;
+    background-image: url('images/footer_button_shadow.png');
+    background-repeat: repeat-x;
+    border-radius: 4px;    
+    text-align: center;
+    line-height: 48px;
+    text-shadow: #444444 1px 0px 0px;
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    /* Default */
+    color: #ffffff;
+}
+
+/*********** PAGE ***************/
+#page {
+    max-width: 640px;
+}
+/*========== END PAGE ==================*/
+
+/*********** HEADER *************/
+#header {
+    background-image: url('images/header_shadow.png');
+    height: 133px;
+    overflow: hidden;
+}
+
+#header img {
+    margin-left: 20px;
+}
+
+#header_site_title {
+    float: right;
+    width: 330px;
+    height: 130px;
+    margin-right: 20px;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+#header_site_title td {
+    vertical-align: middle;
+}
+
+#header_site_title td h1 {
+    margin: 0px;
+    padding: 0px;
+}
+/*================== END HEADER =======================*/
+
+/******************* TOP BAR *******************/
+#top_bar {
+    height: 66px;
+    padding: 15px 20px 0px 20px;
+    background-image: url('images/nav_bar_shadow.png');
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+#navigation_button {
+    width: 183px;
+    height: 51px;
+    text-align: center;
+    display: block;
+    position: relative;
+    float: left;
+    background-image: url('images/button_with_bottom_arrow.png');
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 48px;
+    text-shadow: #444444 1px 0px 0px;
+    color: #ffffff;
+    z-index: 200;
+}
+
+#top_bar .active {
+    background: blue;
+    border-radius: 4px 4px 0px 0px;
+    height: 54px;
+    border-top: solid 1px #45433e;
+}
+
+#navigation_button .triangle {
+    position: absolute;
+    bottom: -9px;
+    left: 76px;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent;
+}
+
+#navigation_button .triangle_shadow {
+    position: absolute;
+    bottom: -9px;
+    left: 0px;
+    width: 183px; 
+    height: 9px; 
+    background-image: url('images/button_with_bottom_arrow.png');
+    background-position: bottom center;
+}
+
+#top_bar .active .triangle,
+#top_bar .active .triangle_shadow {
+    display: none;
+}
+
+#primary_menu {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 20px;
+    width: 600px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff));
+    background: -moz-linear-gradient(top,#ccc,#fff);
+    border-radius: 0px 0px 4px 4px;
+    z-index: 100;
+    border-top: solid 1px #45433e;
+}
+
+#primary_menu ul {
+    margin: 0px;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+#primary_menu ul ul {
+    padding: 0px 20px;
+}
+
+#primary_menu ul li {
+    line-height: 22px;
+}
+
+#primary_menu ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+#top_search {
+    float: right;
+}
+
+#top_search .text {
+    width: 240px;
+    height: 50px;
+    background-image: url('images/search_text_input.png');
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+#top_search .text input {
+    border: 0px;
+    background: none;
+    height: 50px;
+    width: 234px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+#top_search .button {
+    border-radius: 4px;
+    border: none;    
+    width: 107px;
+    height: 50px;
+    background-image: url('images/button.png');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    font-size: 24px;
+    text-shadow: #444444 1px 0px 0px;
+    float: left;
+    padding: 0px;
+    /* Default */
+    background-color: #caab74;
+    color: #ffffff;
+}
+/*================== END TOP BAR ===================*/
+
+/******************* MAIN **********************/
+#main {
+    padding: 0px 20px;
+}
+
+#main h1.entry-title, 
+#main h1.entry-title a,
+#main h2.entry-title,
+#main h2.entry-title a,
+#main h1.page-title {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+section#primary {
+    padding-top: 20px;
+}
+
+#main .post {
+    border-bottom: solid 1px #ffffff;
+    padding: 20px 0px 20px 0px;
+}
+
+#main .post:first-child {
+    border-top: 0px;
+}
+
+#main .post_single {
+    border-bottom: 0px;
+    border-top: solid 1px #ffffff;
+}
+
+#main .page {
+    padding: 20px 0px 1px 0px;
+    border-bottom: solid 1px #ffffff;
+}
+
+#main .not-found {
+    border-bottom: 0px;
+}
+
+#main .post_single .entry-header {
+    border-bottom: solid 1px #ffffff;
+    padding-bottom: 20px;
+}
+
+#main .post .date {
+    float: left;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0px 5px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#main .post hgroup .date {
+    padding: 7px;
+    line-height: 17px;
+}
+
+#main .post hgroup .date span {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#main .post hgroup .date .triangle {
+    position: absolute;
+    top: 29px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent; 
+    border-bottom: 15px solid transparent;
+}
+
+#main .post .author {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#main .post .entry-meta {
+    font-size: 17px;
+    line-height: 23px;
+}
+
+#main .post_single .entry-meta {
+    margin-top: 6px;
+}
+
+.entry-header .wp-post-image {
+    float: left;
+    border: solid 1px #ffffff;
+    margin: 0px 10px 0px 0px;
+}
+
+#main .post .sticky_image {
+    border: solid 1px #ffffff;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+#main .post .sticky_image img {
+    border: 0px;
+}
+
+#main input#s {
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    width: 600px;
+    font-size: 22px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#main #searchsubmit {
+    margin: 10px 0px;
+    padding: 5px 10px;
+}
+
+#main img {
+    max-width: 600px !important;
+    height: auto !important;
+}
+
+#nav-single, nav {
+    font-size: 17px;
+    padding: 20px 0px;
+}
+
+#nav-single .nav-next, nav .nav-next {
+    float: right;
+}
+
+nav .nav-previous {
+    float: left;
+}
+
+#nav-single h3 {
+    margin: 0px;
+    padding: 0px;
+}
+/*================== END MAIN ======================*/
+
+/******************* COMMENTS ******************/
+#comments {
+    padding-top: 17px;
+}
+
+#respond {
+    font-size: 17px;
+}
+
+#respond label {
+    width: 120px;
+    float: left;
+    display: block;
+}
+
+#respond input {
+    margin: 0px 10px 0px 10px;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    height: 24px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#comments-title, #reply-title {
+    margin: 0px;
+    font-size: 20px;
+}
+
+#comments .comment {
+    font-size: 17px;
+    border-bottom: solid 1px;
+    padding: 10px 0px;
+}
+
+#comments .comment a {
+    font-size: 17px;
+}
+
+#comments .form-allowed-tags {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#comment {
+    resize: none;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    vertical-align: top;
+    margin-left: 10px;
+}
+/*================== END COMMENTS ==================*/
+
+/******************* CALENDAR ***********************/
+#wp-calendar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#wp-calendar td {
+    text-align: center;
+    padding: 3px 0px;
+}
+
+td#prev {
+    text-align: left;
+}
+
+td#next {
+    text-align: right;
+}
+/*================== END CALENDAR ==================*/
+
+/******************* FOOTER ********************/
+#footer {
+    min-height: 71px;
+    background-image: url('images/footer_shadow.png');
+    background-repeat: repeat-x;
+}
+
+#footer .button {
+    height: 48px;
+    width: 134px;
+    float: left;
+    margin: 10px 0px 0px 20px;
+}
+
+footer.footer-1 .button {
+    width: 600px !important;
+}
+
+footer.footer-2 .button {
+    width: 290px !important;
+}
+
+footer.footer-3 .button {
+    width: 185px !important;
+}
+
+#footer_copyright {
+    margin: 0px 0px 0px 20px;
+    padding: 5px 0px;
+}
+/*================== END FOOTER ==================*/
+
+/******************* OPT IN FORM ******************/
+#opt_in_form {
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    z-index:9999;
+    -webkit-user-select:none;
+    -webkit-box-sizing:border-box;
+    min-height: 500px;
+    width:480px;
+    font-size:25px;
+    padding:10px;
+    text-align:left;
+    /*font-family:helvetica;*/
+    background-image:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(0.02,#eee),color-stop(0.98,#ccc),color-stop(1,#a3a3a3));
+    border:1px solid #505050;
+    -webkit-border-radius:16px;
+    -webkit-background-clip:padding-box;
+    /*color:#333;
+    text-shadow:0 1px 0 rgba(255,255,255,0.75);
+    line-height:130%;*/
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.5);
+    overflow: scroll;
+}
+
+#opt_in_form .arrow {
+    position:absolute;
+    top: -10px;
+    background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(204,204,204,0)),color-stop(0.4,rgba(204,204,204,0)),color-stop(0.4,#ccc));
+    border-width:0 1px 1px 0;
+    border-style:solid;
+    border-color:#505050;
+    width:16px; height:16px;
+    -webkit-transform:rotateZ(-135deg);
+    left:50%;
+    margin-left:-8px;
+    -webkit-box-shadow:inset -1px -1px 0 #a9a9a9;
+    -webkit-border-bottom-right-radius:2px;
+}
+
+#opt_in_form input[type="text"],
+#opt_in_form input[type="email"],
+#opt_in_form input[type="tel"] {
+    -webkit-border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#opt_in_form .error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#opt_in_form label.error {
+    margin-bottom: 0px;
+}
+
+#opt_in_form #submit_opt_in, #cancel_opt_in {
+	float:left;
+	margin-right: 5px;
+	font-size:25px;
+}
+
+#opt_in_form label[for="receive_mobile_offers_no"],
+#opt_in_form label[for="receive_mobile_offers_yes"]{
+	font-size: 44px;
+}
+/*================== END OPT IN FORM =============*/
